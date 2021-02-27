@@ -22,16 +22,17 @@ int a;
 ```
 ### 자료형
  
+정수 자료형은 크게 char, int    
 ![image](https://user-images.githubusercontent.com/68385605/109399375-d79e0200-7985-11eb-841e-607cccec4a8d.png)
 
+실수 자료형은 소수점 표현 가능  
 ![image](https://user-images.githubusercontent.com/68385605/109399400-061bdd00-7986-11eb-87ee-f807e9124bc8.png)
 
 tip: 자료형 크기
 ```
 char < short < int < long < long long < float < double < long double
 ```
-
-정수형보다 실수형이 자료형 크기가 큼
+int 보다 float 가 자료형 크기가 큼
 
 ### 자동 형 변환(암시적 형 변환)
 
@@ -91,8 +92,6 @@ d/e 로 정수끼리 나누기한 몫 4 을 float 으로 변환
 float h = (float)(d/e) 
 ```
  
-
-  
 ### 출력 printf()
 
 ex) `%3d` 를 이용해 여백으로 칸 맞추기
