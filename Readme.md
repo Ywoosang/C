@@ -34,6 +34,22 @@ char < short < int < long < long long < float < double < long double
 ```
 int 보다 float 가 자료형 크기가 큼
 
+###  bool 타입 사용
+
+0 : 거짓  
+1 : 참 (0 이외 모든 값은 참)  
+  
+명시적으로 bool 타입을 사용하고 싶을 때(c99 표준)  
+```c
+include<stdbool.h>
+```
+`bool`,`true`,`false` 모두 사용 가능  
+```c
+bool isTrue = true;
+if (!isTrue) {
+   ... 
+}
+``` 
 ### 자동 형 변환(암시적 형 변환)
 
 데이터 형식(Type)을 자동으로 변환해주는 것을 의미  
